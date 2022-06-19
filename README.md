@@ -1,5 +1,5 @@
 # Optimal-Portfolio-Calculation
-Functioning codes for investment project. Also maybe for future use?
+Functioning codes for investment project. Maybe also for future use?
 
 About `get.MP()`:
 - Receives the mean vector `e`, covariance matrix `Sig`, and risk-free rate `rf`
@@ -21,3 +21,5 @@ Demo:
   `inv.p <- get.optP(mkt.p, A = 4, col = "red")`
 
 Warnings on sequence length may be raised. You can ignore them
+
+![plot](https://user-images.githubusercontent.com/60502569/174472904-bde8b85d-1eb5-4b31-b242-830c305cc472.png)
