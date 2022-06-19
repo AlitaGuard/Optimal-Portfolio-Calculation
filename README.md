@@ -2,12 +2,12 @@
 Functioning codes for investment project. Also maybe for future use?
 
 About `get.MP()`:
-Receives the mean vector `e`, covariance matrix `Sig`, and risk-free rate `rf`
-Returns an object recording the market portfolio
-Set `frontier = TRUE` (default) to draw the efficient frontier
-Further set `line = TRUE` (default) to draw the CML
-Set `new = FALSE` to draw on the existing plot
-You can also pass other plotting options
+- Receives the mean vector `e`, covariance matrix `Sig`, and risk-free rate `rf`
+- Returns an object recording the market portfolio
+- Set `frontier = TRUE` (default) to draw the efficient frontier
+- Further set `line = TRUE` (default) to draw the CML
+- Set `new = FALSE` to draw on the existing plot
+- You can also pass other plotting options
 
 About `get.optP()`:
 - Receives the object returned by `get.MP()` and a user-sepcified parameter `A`
