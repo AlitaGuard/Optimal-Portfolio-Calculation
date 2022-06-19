@@ -20,6 +20,7 @@ Demo:
 - Then call below to draw the investor's optimal portfolio
   `inv.p <- get.optP(mkt.p, A = 4, col = "red")`
 
-Warnings on sequence length may be raised. You can ignore them
-
+The output plot may look like:
 ![plot](https://user-images.githubusercontent.com/60502569/174472904-bde8b85d-1eb5-4b31-b242-830c305cc472.png)
+
+Warnings on sequence length may be raised. You can ignore them
